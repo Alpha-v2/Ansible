@@ -1,0 +1,9 @@
+[NGINX]
+54.173.196.17 ansible_user=ubuntu ansible_private_key_file=/home/ubuntu/key.pem
+
+[Apache]
+67.202.40.209 ansible_user=ubuntu ansible_private_key_file=/home/ubuntu/key.pem
+
+Note that while creating key.pem file in linux use cmd chmod 400 (only owner will have rwx permision)
+
+ansible-galaxy init custom_role
